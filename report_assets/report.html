@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Verdant Leaf — Marketing Mix Modeling & Q1 2026 Budget Plan</title>
+<style>
+  @page {
+    size: A4;
+    margin: 9mm 11mm 9mm 11mm;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 8.4pt;
+    line-height: 1.34;
+    color: #1E293B;
+    background: #FFFFFF;
+  }
+  .page {
+    width: 100%;
+    page-break-after: always;
+    position: relative;
+  }
+  .page:last-child {
+    page-break-after: auto;
+  }
+  .header-banner {
+    background: linear-gradient(135deg, #0F291E 0%, #1B4332 60%, #2D6A4F 100%);
+    color: #FFFFFF;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-banner h1 {
+    font-size: 14.5pt;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    margin-bottom: 2px;
+  }
+  .header-banner .sub {
+    font-size: 8.2pt;
+    color: #D8F3DC;
+  }
+  .header-meta {
+    text-align: right;
+    font-size: 7.8pt;
+    color: #B7E4C7;
+    line-height: 1.4;
+  }
+  .page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1.5px solid #1B4332;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+  }
+  .page-top .brand {
+    font-size: 8pt;
+    font-weight: 700;
+    color: #1B4332;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+  .page-top .pg-num {
+    font-size: 7.8pt;
+    color: #64748B;
+  }
+  h2 {
+    font-size: 11.2pt;
+    font-weight: 700;
+    color: #1B4332;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    padding-left: 7px;
+    border-left: 3.5px solid #2D6A4F;
+  }
+  h3 {
+    font-size: 9.3pt;
+    font-weight: 700;
+    color: #0F172A;
+    margin-top: 6px;
+    margin-bottom: 3px;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+  ul, ol {
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  li {
+    margin-bottom: 2.5px;
+  }
+  .exec-box {
+    background: #F0FDF4;
+    border: 1px solid #BBF7D0;
+    border-left: 4px solid #1B4332;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-bottom: 7px;
+  }
+  .exec-title {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #14532D;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin: 5px 0 2px 0;
+  }
+  .kpi-card {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-top: 2.5px solid #2D6A4F;
+    border-radius: 4px;
+    padding: 4px 6px;
+    text-align: center;
+  }
+  .kpi-val {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #0F172A;
+  }
+  .kpi-lbl {
+    font-size: 7.2pt;
+    color: #475569;
+    margin-top: 1px;
+  }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    padding: 7px 9px;
+  }
+  .card-warn {
+    background: #FEF2F2;
+    border: 1px solid #FECACA;
+    border-left: 3.5px solid #DC2626;
+    border-radius: 5px;
+    padding: 7px 9px;
+  }
+  .card-amber {
+    background: #FFFBEB;
+    border: 1px solid #FDE68A;
+    border-left: 3.5px solid #D97706;
+    border-radius: 5px;
+    padding: 7px 9px;
+  }
+  .card-green {
+    background: #F0FDF4;
+    border: 1px solid #BBF7D0;
+    border-left: 3.5px solid #16A34A;
+    border-radius: 5px;
+    padding: 7px 9px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4px 0 5px 0;
+    font-size: 7.7pt;
+  }
+  th {
+    background: #1B4332;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: left;
+    padding: 3.5px 5px;
+    border: 1px solid #1B4332;
+  }
+  td {
+    padding: 3px 5px;
+    border: 1px solid #CBD5E1;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td {
+    background: #F8FAFC;
+  }
+  .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .pos { color: #15803D; font-weight: 700; }
+  .neg { color: #DC2626; font-weight: 700; }
+  .muted { color: #64748B; }
+  .badge {
+    display: inline-block;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 7.2pt;
+    font-weight: 700;
+  }
+  .b-green { background: #DCFCE7; color: #166534; }
+  .b-red { background: #FEE2E2; color: #991B1B; }
+  .b-amber { background: #FEF3C7; color: #92400E; }
+  .b-blue { background: #DBEAFE; color: #1E40AF; }
+  .terminal {
+    background: #0F172A;
+    color: #E2E8F0;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 7.3pt;
+    line-height: 1.32;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin: 5px 0 7px 0;
+    white-space: pre;
+  }
+  .t-err { color: #FCA5A5; font-weight: 700; }
+  .t-warn { color: #FCD34D; font-weight: 700; }
+  .t-ok { color: #86EFAC; font-weight: 700; }
+  img.fig {
+    width: 100%;
+    height: auto;
+    border: 1px solid #CBD5E1;
+    border-radius: 4px;
+    margin: 4px 0 5px 0;
+    display: block;
+  }
+  .caption {
+    font-size: 7.4pt;
+    color: #475569;
+    font-style: italic;
+    margin-bottom: 6px;
+  }
+  .formula {
+    background: #F1F5F9;
+    border-left: 3px solid #475569;
+    padding: 4px 8px;
+    font-family: Consolas, monospace;
+    font-size: 7.9pt;
+    margin: 4px 0 6px 0;
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== PAGE 1 ==================== -->
+<section class="page">
+  <div class="header-banner">
+    <div>
+      <h1>Verdant Leaf — Marketing Mix Modeling &amp; Q1 2026 Budget Plan</h1>
+      <div class="sub">Assignment: Model Usage &amp; Refinement | Diagnostic Audit, Calibrated Multiplicative MMM &amp; Risk-Adjusted Allocation</div>
+    </div>
+    <div class="header-meta">
+      Data: Jan 2023 – Dec 2025 (156 wks)<br>
+      Budget: ₹16.00 Cr (Q1 2026)<br>
+      Code: <b>refined_mmm.py</b>
+    </div>
+  </div>
+
+  <!-- Founder Executive Summary (~Half Page) -->
+  <div class="exec-box">
+    <div class="exec-title">Executive Summary for the Founder (Plain-Language Readout)</div>
+    <p><strong>Your intuition was right—the agency’s model (<code>baseline_mmm.py</code>) gave dangerous budget advice.</strong> It told us Google Search returns ₹13.72 per ₹1, Meta barely returns ₹0.40, and YouTube destroys sales (-₹0.79). Three root issues caused those distortions: <strong>(1) Raw export bugs</strong> shrank Q4 2023 Meta spend by 100,000× (reported in Lakhs instead of ₹) and duplicated a week; <strong>(2) Attribution &amp; timing blindness</strong> treated brand ads as instant 7-day impulses and let Google Search take 100% credit for brand demand created by TV, Meta, and Influencers; and <strong>(3) Missing business drivers</strong> ignored 10%/yr organic growth, seasonal peaks, marketplace sales, and competitor promos.</p>
+    <p><strong>What actually works:</strong> After cleaning the data, modeling multi-week adstock memory, diminishing returns, and multiplicative scale—and validating against our <strong>Meta geo-holdout test (₹1.39 iROAS)</strong>—every digital channel is profitable except TV on a 1–4 month horizon. <strong>Influencer (₹2.32 marginal ROAS)</strong> and <strong>YouTube (₹1.99 mROAS)</strong> are our highest-upside growth levers, <strong>Meta (₹1.29 mROAS)</strong> is a dependable core workhorse, <strong>Google Search (₹1.71 mROAS)</strong> harvests demand efficiently without being a ₹13 money tree, <strong>Amazon Ads (₹1.18 mROAS)</strong> defends marketplace volume, while <strong>TV (₹0.69 mROAS)</strong> is over-invested relative to near-term return.</p>
+    <p style="margin-bottom:0;"><strong>Q1 2026 Action Plan (₹16 Cr):</strong> Cut TV by 50% (₹2.45 → ₹1.23 Cr, concentrated into one 2-week launch burst rather than dripped thinly), push Influencer to its +50% cap (₹1.19 → ₹1.79 Cr), test-scale YouTube +25% (₹0.96 → ₹1.20 Cr) and Google Search +14% (₹2.31 → ₹2.63 Cr), and keep Meta (₹5.05 Cr) and Amazon (₹4.11 Cr) steady. This delivers <strong>₹80.36 Cr expected Q1 revenue</strong> and <strong>+₹1.71 Cr incremental lift</strong> (including Q2 carryover) with <strong>100% probability of beating status quo</strong>, while funding a YouTube geo-holdout test next quarter to resolve YouTube's wide uncertainty band.</p>
+
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <div class="kpi-val">95.7% / 87.4%</div>
+        <div class="kpi-lbl">Full R² / Latest OOS Fold R²</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val">1.47 → 1.39</div>
+        <div class="kpi-lbl">Meta iROAS (Uncal. → Holdout)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val">+₹1.71 Cr</div>
+        <div class="kpi-lbl">Expected Lift (90% CI: +0.80–2.66)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-val">100.0%</div>
+        <div class="kpi-lbl">Prob. of Beating Status Quo</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 1 -->
+  <h2>1. Can We Trust the Data? Raw Export Audit &amp; Bug Screenshots</h2>
+  <p>No—treating <code>mmm_weekly_data.csv</code> (157 rows, 19 columns) as clean input corrupts any model. Auditing date continuity, spend-to-impression CPM ratios, accounting signs, and missingness exposed <strong>4 hard export bugs</strong> and <strong>1 experiment logging caveat</strong>:</p>
+
+  <img src="fig1_data_bugs_screenshot.png" class="fig" style="max-height: 91mm; width: auto; margin: 3px auto;" alt="Data Bugs Screenshot and Resolution">
+  <div class="caption">Figure 1: Raw CSV inspection screenshot highlighting all 4 anomalies, our deterministic resolution pipeline, and CPM stability check across 156 clean weeks.</div>
+
+  <div class="card-amber" style="margin-top:2px;">
+    <strong>Audit Caveat #5 (Meta Geo-Holdout Logging):</strong> During the 6-week Meta geo-holdout (<code>2025-04-07</code> to <code>2025-05-12</code>), weekly <code>meta_spend</code> sums to ₹222.96L, and 20% of that equals <strong>₹44.592L</strong>—matching <code>spend_withheld_inr = ₹44.59L</code> in <code>lift_test_results.csv</code> to 0.004%. Thus <code>mmm_weekly_data.csv</code> logged planned national spend rather than deducting the ₹44.59L dark holdout (~2.2% of 2025 Meta spend). We retain the series for continuity and flag this as a minor attenuation caveat in our calibration notes.
+  </div>
+</section>
+
+<!-- ==================== PAGE 2 ==================== -->
+<section class="page">
+  <div class="page-top">
+    <span class="brand">Verdant Leaf MMM Refinement</span>
+    <span class="pg-num">Page 2 of 6</span>
+  </div>
+
+  <h2>2. What’s Wrong with the Current Model (<code>baseline_mmm.py</code>)?</h2>
+  <p>Running <code>baseline_mmm.py</code> with Python 3.11 (<code>pandas</code> + <code>statsmodels</code>) on the uncleaned export yields seemingly decent in-sample fit (<strong>R² = 0.872</strong>) but severely broken diagnostics and economically impossible channel coefficients:</p>
+
+  <div class="terminal">$ uv run --python 3.11 --with pandas --with statsmodels python baseline_mmm.py
+Dep. Variable: revenue_inr   R-squared: 0.872   Adj. R-squared: 0.865   No. Observations: 153
+Durbin-Watson: <span class="t-warn">1.383 (positive autocorrelation)</span>   Cond. No.: <span class="t-err">3.50e+07 (severe multicollinearity)</span>
+---------------------------------------------------------------------------------------------------
+const: 2.88e+07 (p=0.000) | festive_flag: 1.845e+06 (p=0.192) | avg_discount_pct: <span class="t-warn">-1.599e+05 (p=0.202)</span>
+Channel ROI (₹ per ₹1 spent):
+  <span class="t-err">google_search_spend: 13.72 (p=0.000)</span> | amazon_ads_spend: 1.94 (p=0.002) | influencer_spend: 0.48 (p=0.012)
+  <span class="t-warn">meta_spend: 0.40 (p=0.141, not sig)</span>  | tv_spend: 0.24 (p=0.016)         | <span class="t-err">youtube_spend: -0.79 (p=0.319!)</span></div>
+
+  <div class="two-col">
+    <div class="card-warn">
+      <h3>Statistical &amp; Econometric Flaws</h3>
+      <ul>
+        <li><strong>Unit-Scale Corruption on Meta:</strong> Leaving Q4 2023 Meta spend in Lakhs caused 13 high-revenue festive weeks to show ₹16–42 spend. Fixing the 4 data bugs <em>alone</em> (same naive OLS) jumps Meta ROI from <strong>0.40 → 1.59 (p=0.001)</strong>!</li>
+        <li><strong>Severe Multicollinearity (Cond. No. 3.5×10⁷):</strong> Festive &amp; sale budgets move Meta, TV, Google, and Amazon together, inflating standard errors and flipping YouTube negative (<code>-0.79</code>).</li>
+        <li><strong>Autocorrelation (DW = 1.383):</strong> Omitting the +10%/yr growth trend and annual seasonality leaves serially correlated errors and biased t-stats.</li>
+        <li><strong>Blind Row Dropping (<code>df.dropna()</code>):</strong> Discarded 4 valid weeks due to missing YouTube spend while leaving the duplicate <code>2025-03-10</code> row in the sample.</li>
+        <li><strong>Additive Scale Mismatch:</strong> Assumes fixed ₹ lifts across a business that grew +29% from 2023 (₹46.7M/wk) to 2025 (₹60.3M/wk).</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Real-World Marketing &amp; Budgeting Flaws</h3>
+      <ul>
+        <li><strong>Demand-Capture Trap &amp; Reverse Causality:</strong> Google Search spend correlates <strong>r = 0.940</strong> with <code>brand_search_index</code> and <strong>0.911</strong> with revenue. When brand buzz or sales rise, search algorithms automatically spend more. Search harvests existing intent at the checkout—it did not create the ₹13.72 demand!</li>
+        <li><strong>Zero Adstock Memory:</strong> Assumes ads work only inside the same Mon–Sun week. Detrended cross-correlations show TV (lags 0–3: <code>0.54, 0.39, 0.26, 0.12</code>) and Influencer (<code>0.19, 0.14, 0.17, 0.15</code>) drive sales for 3–6 weeks.</li>
+        <li><strong>No Diminishing Returns (Infinite Linearity):</strong> Straight-line OLS assumes spending ₹100 Cr on Google yields ₹1,372 Cr. Real media saturates once high-intent audiences exhaust.</li>
+        <li><strong>Omitted Confounders &amp; Experiment Failure:</strong> Ignores marketplace sales, competitor promos, pricing, and brand/organic demand—and contradicts the Meta geo-holdout test (<strong>0.40</strong> vs. true <strong>1.39</strong>).</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Ablation Proof: How Each Modeling Mistake Shifts Channel ROIs</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Model Iteration</th>
+        <th class="num">R² (Rev)</th>
+        <th class="num">DW</th>
+        <th class="num">Meta</th>
+        <th class="num">Google</th>
+        <th class="num">YouTube</th>
+        <th class="num">Influencer</th>
+        <th class="num">TV</th>
+        <th class="num">Amazon</th>
+        <th>Diagnosis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>v0: Raw Baseline OLS</b></td>
+        <td class="num">0.872</td><td class="num">1.38</td>
+        <td class="num neg">0.40</td><td class="num neg">13.72</td><td class="num neg">-0.79</td>
+        <td class="num">0.48</td><td class="num">0.24</td><td class="num">1.94</td>
+        <td>Broken by Lakhs bug, endogeneity &amp; zero lag</td>
+      </tr>
+      <tr>
+        <td><b>v1: Cleaned Data OLS</b></td>
+        <td class="num">0.879</td><td class="num">1.45</td>
+        <td class="num pos">1.59</td><td class="num neg">13.39</td><td class="num neg">-0.53</td>
+        <td class="num">0.52</td><td class="num">0.23</td><td class="num">1.64</td>
+        <td>Meta jumps 4× from unit fix; YT/Search still broken</td>
+      </tr>
+      <tr>
+        <td><b>v2: Dead End (Naive Mediators)</b></td>
+        <td class="num">0.949</td><td class="num">2.14</td>
+        <td class="num neg">0.06</td><td class="num">2.12</td><td class="num neg">0.12</td>
+        <td class="num neg">0.01</td><td class="num neg">-0.05</td><td class="num">1.23</td>
+        <td><b>Trap!</b> Brand/Organic steal all upper-funnel lift</td>
+      </tr>
+      <tr>
+        <td><b>v3: Refined Calibrated Log-MMM</b></td>
+        <td class="num pos"><b>0.957</b></td><td class="num pos"><b>2.32</b></td>
+        <td class="num pos"><b>1.84</b></td><td class="num pos"><b>1.88</b></td><td class="num pos"><b>2.15</b></td>
+        <td class="num pos"><b>2.14</b></td><td class="num"><b>0.62</b></td><td class="num pos"><b>1.25</b></td>
+        <td>Passes OOS CV + Meta Holdout (1.39 iROAS)</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="muted" style="font-size:7.6pt;">Note: v0–v2 report linear slopes; v3 reports full-sample Average ROI (total incremental revenue / total spend) accounting for adstock carryover and concave saturation.</p>
+</section>
+
+<!-- ==================== PAGE 3 ==================== -->
+<section class="page">
+  <div class="page-top">
+    <span class="brand">Verdant Leaf MMM Refinement</span>
+    <span class="pg-num">Page 3 of 6</span>
+  </div>
+
+  <h2>3. Building a Better Model: Drivers, Dead Ends &amp; Validation</h2>
+
+  <div class="two-col">
+    <div class="card">
+      <h3>Dead End #1: The Mediator Trap (And How We Fixed It)</h3>
+      <p>What drives revenue besides ads? Two indices—<code>brand_search_index</code> (r=0.95) and <code>organic_traffic_index</code> (r=0.87)—look tempting as controls. When we naively added them in <b>v2</b>, R² jumped to <b>0.949</b>, yet Meta fell to <b>0.06</b> and TV turned <b>-0.05</b>! Why? Stage-1 regressions prove adstocked upper-funnel media explains <b>96.2%</b> of <code>log(organic_traffic_index)</code> (TV t=20.0, Influencer t=13.3, Meta t=11.4, YouTube t=2.85) and <b>97.8%</b> of <code>log(brand_search_index)</code>.</p>
+      <p style="margin-bottom:0;"><strong>Solution (2-Stage Orthogonalization):</strong> We regress both indices on controls + adstocked upper-funnel media and feed only their <em>residuals</em> (<code>organic_shock</code>, <code>brand_shock</code>) into Stage 2. This captures pure non-media demand shocks while preserving 100% of upper-funnel media credit.</p>
+    </div>
+    <div class="card">
+      <h3>Dead End #2: Additive vs. Multiplicative Scale</h3>
+      <p>When trained on Weeks 0–119 (2023–Q1 2025), additive linear-revenue models underpredicted Q4 2025 Diwali (<code>2025-10-27</code>) by <b>₹11.0M</b> and July Prime Sale by <b>₹6.6M</b> (OOS R² = 0.74–0.77). Because baseline revenue grew +29% over 3 years, seasonal and promotional surges scale <em>proportionally</em> with business size, not by a flat rupee amount.</p>
+      <p style="margin-bottom:0;"><strong>Solution (Log-Revenue MMM):</strong> Modeling <code>ln(Revenue)</code> naturally scales promotional/media lifts with business volume, boosting 3-fold OOS R² to <b>0.787</b> (Fold 3 R² = <b>0.874</b>, MAPE = <b>3.40%</b>) and fixing discount sign from negative to positive.</p>
+    </div>
+  </div>
+
+  <h3>Final Specification: Calibrated Multiplicative Adstock-Saturation Ridge MMM</h3>
+  <div class="formula">ln(Rev_t) = β₀ + Σ_c β_c · ln(1 + [(1 - α_c) · Adstock(Spend_{c,t}, α_c)] / K_c) + γᵀ Controls_t + δ₁ organic_shock_t + δ₂ brand_shock_t + ε_t</div>
+  <p>Hyperparameters (adstock decay <code>α_c</code> within domain bounds, saturation scale <code>K_c</code>) are fitted via L-BFGS-B wrapping a closed-form standardized Ridge solver (<code>λ₂=0.005</code>, non-negativity enforced) with a Gaussian calibration prior from <code>lift_test_results.csv</code> (Meta 6-week 20% geo-holdout + 4 post weeks: <strong>iROAS = 1.39, SE = 0.274</strong>). Predictions are retransformed to INR using Duan’s smearing estimator.</p>
+
+  <img src="fig2_baseline_vs_refined_roi.png" class="fig" style="max-height: 61mm; width: auto; margin: 3px auto;" alt="Baseline vs Refined ROI and Model Fit">
+  <div class="caption">Figure 2: (Left) Channel ROI shifts from broken baseline v0 to Refined MMM with 90% bootstrap intervals and Meta geo-holdout band. (Right) Actual vs. fitted revenue across 156 weeks highlighting OOS Holdout Fold 3 (R² = 0.874) and the Meta experiment window.</div>
+
+  <div class="two-col">
+    <div>
+      <h3>What Drives Revenue Besides Ads? (Control Effects)</h3>
+      <table>
+        <thead>
+          <tr><th>Non-Media Driver</th><th class="num">Est. Effect</th><th>Real-World Meaning</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Baseline Growth (<code>t</code>)</td><td class="num pos">+0.18%/wk</td><td>~+9.7%/yr organic brand compounding</td></tr>
+          <tr><td>Annual Seasonality</td><td class="num">±5.4% swing</td><td>Peaks Q4 festive; softer Q1 Jan–Feb</td></tr>
+          <tr><td>Marketplace Sale Flag</td><td class="num pos">+11.7%</td><td>Amazon/Flipkart tentpole surges</td></tr>
+          <tr><td>Diwali Festive Flag</td><td class="num pos">+10.2%</td><td>Seasonal gifting &amp; category uplift</td></tr>
+          <tr><td>New Launch Window</td><td class="num pos">+6.6%</td><td>4-week halo around SKU launches</td></tr>
+          <tr><td>Avg Discount (%)</td><td class="num pos">+0.83% / 1pp</td><td>Volume lift (was negative in v0!)</td></tr>
+          <tr><td>Competitor Promo Flag</td><td class="num neg">-2.2%</td><td>Competitive discounting drag</td></tr>
+          <tr><td>Organic Traffic Shock</td><td class="num pos">+28.5% / log-pt</td><td>Unobserved PR / word-of-mouth spikes</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <h3>How We Know It’s Right (Not Just Overfit)</h3>
+      <table>
+        <thead>
+          <tr><th>Validation Check</th><th class="num">Result</th><th>Pass / Insight</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Full-Sample Fit (156 wks)</td><td class="num">R² = 0.957</td><td>Explains 95.7% of revenue variance</td></tr>
+          <tr><td>Residual Autocorrelation</td><td class="num">DW = 2.32</td><td>No unmodeled trend/seasonality left</td></tr>
+          <tr><td>OOS Fold 1 (Tr 104 → Te 26)</td><td class="num">R² = 0.659</td><td>MAPE = 3.94%, RMSE = ₹2.80M</td></tr>
+          <tr><td>OOS Fold 2 (Tr 120 → Te 36)</td><td class="num">R² = 0.829</td><td>MAPE = 3.32%, RMSE = ₹2.77M</td></tr>
+          <tr><td>OOS Fold 3 (Tr 130 → Te 26)</td><td class="num pos">R² = 0.874</td><td>MAPE = 2.94%, RMSE = ₹2.68M</td></tr>
+          <tr><td><b>Meta Holdout (Uncalibrated)</b></td><td class="num pos"><b>1.466</b></td><td>Inside 90% CI [0.94, 1.84] unforced!</td></tr>
+          <tr><td><b>Meta Holdout (Calibrated)</b></td><td class="num pos"><b>1.386</b></td><td>Matches 1.39 experimental ground truth</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PAGE 4 ==================== -->
+<section class="page">
+  <div class="page-top">
+    <span class="brand">Verdant Leaf MMM Refinement</span>
+    <span class="pg-num">Page 4 of 6</span>
+  </div>
+
+  <h2>4. Channel Performance, Adstock Memory &amp; Saturation Curves</h2>
+  <p>Evaluating channels requires separating <strong>historical average ROI</strong> (what past spend earned) from <strong>2025 Marginal ROAS (mROAS)</strong> (what the <em>next ₹1</em> earns at 2025 spend levels). Channels that scaled rapidly from 2023 to 2025—like Meta (+71%)—face steeper diminishing returns today than under-invested channels like Influencer.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Channel</th>
+        <th class="num">2025 Avg Qtr Spend</th>
+        <th class="num">Adstock α (t½)</th>
+        <th class="num">v0 Raw ROI</th>
+        <th class="num">Refined Avg ROI [90% CI]</th>
+        <th class="num">2025 mROAS [90% CI]</th>
+        <th>Strategic Assessment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Influencer</b></td>
+        <td class="num">₹1.19 Cr (7.4%)</td>
+        <td class="num">0.74 (2.3w)</td>
+        <td class="num">0.48</td>
+        <td class="num pos">2.14 [1.67, 2.53]</td>
+        <td class="num pos">2.32 [1.80, 2.75]</td>
+        <td><span class="badge b-green">Scale Max (+50%)</span> High &amp; tightest certainty; 2025 spend was below 2024 peak</td>
+      </tr>
+      <tr>
+        <td><b>YouTube</b></td>
+        <td class="num">₹0.96 Cr (6.0%)</td>
+        <td class="num">0.74 (2.3w)</td>
+        <td class="num neg">-0.79</td>
+        <td class="num pos">2.15 [0.05, 3.83]</td>
+        <td class="num pos">1.99 [0.05, 3.61]</td>
+        <td><span class="badge b-amber">Test-Scale (+25%)</span> Strong upside once adstock added, but wide CI needs lift test</td>
+      </tr>
+      <tr>
+        <td><b>Google Search</b></td>
+        <td class="num">₹2.31 Cr (14.5%)</td>
+        <td class="num">0.23 (0.5w)</td>
+        <td class="num neg">13.72</td>
+        <td class="num">1.88 [0.00, 4.33]</td>
+        <td class="num">1.71 [0.00, 4.10]</td>
+        <td><span class="badge b-blue">Prudent Grow (+14%)</span> Captures brand/non-brand intent; avoid over-betting wide CI</td>
+      </tr>
+      <tr>
+        <td><b>Meta</b></td>
+        <td class="num">₹4.93 Cr (30.8%)</td>
+        <td class="num">0.23 (0.5w)</td>
+        <td class="num neg">0.40</td>
+        <td class="num pos">1.84 [1.31, 2.42]</td>
+        <td class="num pos">1.29 [0.91, 1.74]</td>
+        <td><span class="badge b-green">Hold Core (+2.5%)</span> Geo-holdout verified; steep curve limits aggressive scaling</td>
+      </tr>
+      <tr>
+        <td><b>Amazon Ads</b></td>
+        <td class="num">₹4.16 Cr (26.0%)</td>
+        <td class="num">0.21 (0.4w)</td>
+        <td class="num">1.94</td>
+        <td class="num">1.25 [0.21, 2.30]</td>
+        <td class="num">1.18 [0.19, 2.23]</td>
+        <td><span class="badge b-blue">Maintain (-1.1%)</span> Marginally profitable (~1.18); protects marketplace rank</td>
+      </tr>
+      <tr>
+        <td><b>TV</b></td>
+        <td class="num">₹2.45 Cr (15.3%)</td>
+        <td class="num">0.79 (3.0w)</td>
+        <td class="num">0.24</td>
+        <td class="num neg">0.62 [0.38, 0.84]</td>
+        <td class="num neg">0.69 [0.42, 0.94]</td>
+        <td><span class="badge b-red">Cut Floor (-50%)</span> Sub-1.0 even at 95th pct; switch to concentrated 2-wk bursts</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <img src="fig3_saturation_and_adstock.png" class="fig" alt="Saturation and Adstock Curves">
+  <div class="caption">Figure 3: (Left) Marginal ROAS curves across 40%–160% of 2025 average weekly spend; dots mark 2025 status quo. (Right) Adstock decay showing upper-funnel channels (TV, YouTube, Influencer) realize ~74–79% of impact after Week 0, explaining why zero-lag OLS missed them.</div>
+
+  <div class="two-col" style="margin-top:4px;">
+    <div class="card">
+      <h3>Why Influencer &amp; YouTube Flipped from “Dead” to Top Performers</h3>
+      <p style="margin-bottom:0;">Both channels exhibit long carryover (<code>α = 0.74</code>, half-life 2.3 weeks) and strong indirect lifts through <code>organic_traffic_index</code>. Influencer’s 2025 mROAS (<strong>2.32</strong>) actually exceeds its 3-year average (<strong>2.14</strong>) because 2025 spend was trimmed (-14% vs 2024) while the customer base grew +29%—leaving it unsaturated and ready to scale.</p>
+    </div>
+    <div class="card">
+      <h3>Why Meta Sits Near Optimal &amp; Why TV Is Below Break-Even</h3>
+      <p style="margin-bottom:0;">Meta’s saturation parameter (<code>K = 0.57×</code> active mean) shows clear diminishing returns: early 2023 spend (~₹2.3M/wk) returned &gt;₹2.1, while 2025 spend (~₹3.9M/wk) sits at <strong>1.29 mROAS</strong>—aligning with the 1.39 geo-test. TV returns <strong>0.69</strong> inside a 16-week window (including brand-search halo), though unmeasured &gt;6-month brand equity warrants keeping the 50% floor rather than zeroing TV.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PAGE 5 ==================== -->
+<section class="page">
+  <div class="page-top">
+    <span class="brand">Verdant Leaf MMM Refinement</span>
+    <span class="pg-num">Page 5 of 6</span>
+  </div>
+
+  <h2>5. Q1 2026 Budget Recommendation (₹16 Cr, 50%–150% Bounds)</h2>
+  <p>We optimize the ₹16.00 Cr Jan–Mar 2026 budget (13 weeks) within 50%–150% of 2025 average quarterly spend (<code>2025 total / 4 = ₹16.002 Cr</code>), projecting dynamic Q1 revenue starting from December 2025 carryover adstock <em>plus</em> the 16-week Q2 carryover tail generated by Q1 spend (so long-memory channels aren’t penalized by an arbitrary March 31 cutoff).</p>
+
+  <div class="card-green">
+    <strong>Why We Recommend Risk-Adjusted Optimization (λ = 0.75) Over Blind Point Optimization (λ = 0.00):</strong>
+    A pure point-estimate optimizer (<code>λ = 0.00</code>) slams Google Search (+50% to ₹3.47 Cr) and YouTube (+50% to ₹1.44 Cr), creating a +₹2.31 Cr mean lift—but carries a <strong>10% risk of losing money</strong> vs. status quo (90% CI: <code>[-0.59, +5.31] Cr</code>) because Google Search and YouTube have wide estimation bands (<code>[0.00, 4.10]</code> and <code>[0.05, 3.61]</code>). In Q1 (non-festive), forcing ₹3.47 Cr into Search (+84% vs Q1 2025’s ₹1.89 Cr) also risks exhausting branded search and spilling into low-ROAS generic terms. By maximizing <code>E[Lift] - 0.75·SD[Lift]</code> across 300 bootstrap draws, we capture <strong>+₹1.71 Cr expected lift with 100.0% win probability</strong> (90% CI: <code>[+0.80, +2.66] Cr</code>).
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Channel</th>
+        <th class="num">2025 Avg Qtr</th>
+        <th class="num">Allowed [50%–150%]</th>
+        <th class="num">Point-Opt (λ=0.0)</th>
+        <th class="num">Recommended (λ=0.75)</th>
+        <th class="num">Change vs 2025</th>
+        <th>Execution Guidance for Q1 2026</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Meta</b></td>
+        <td class="num">₹4.93 Cr</td><td class="num">[2.46, 7.39]</td>
+        <td class="num">₹5.06 Cr</td><td class="num"><b>₹5.05 Cr</b></td>
+        <td class="num pos">+2.5%</td>
+        <td>Always-on (~₹38.8L/wk); hold efficiency near 1.3 mROAS</td>
+      </tr>
+      <tr>
+        <td><b>Amazon Ads</b></td>
+        <td class="num">₹4.16 Cr</td><td class="num">[2.08, 6.24]</td>
+        <td class="num">₹3.02 Cr</td><td class="num"><b>₹4.11 Cr</b></td>
+        <td class="num">-1.1%</td>
+        <td>Steady defense (~₹31.6L/wk); scale up during Republic Day events</td>
+      </tr>
+      <tr>
+        <td><b>Google Search</b></td>
+        <td class="num">₹2.31 Cr</td><td class="num">[1.16, 3.47]</td>
+        <td class="num">₹3.47 Cr</td><td class="num"><b>₹2.63 Cr</b></td>
+        <td class="num pos">+13.8%</td>
+        <td>~₹20.2L/wk; cap non-brand CPA so incremental ROAS stays &gt;1.3</td>
+      </tr>
+      <tr>
+        <td><b>Influencer</b></td>
+        <td class="num">₹1.19 Cr</td><td class="num">[0.60, 1.79]</td>
+        <td class="num">₹1.79 Cr</td><td class="num"><b>₹1.79 Cr</b></td>
+        <td class="num pos">+50.0%</td>
+        <td>Hit 150% ceiling (~₹13.7L/wk); concentrate on Feb/Mar SKU launch</td>
+      </tr>
+      <tr>
+        <td><b>TV</b></td>
+        <td class="num">₹2.45 Cr</td><td class="num">[1.23, 3.68]</td>
+        <td class="num">₹1.23 Cr</td><td class="num"><b>₹1.23 Cr</b></td>
+        <td class="num neg">-50.0%</td>
+        <td><b>2-week burst (~₹61.5L/wk in Feb)</b>, NOT dripped ₹9.4L/wk</td>
+      </tr>
+      <tr>
+        <td><b>YouTube</b></td>
+        <td class="num">₹0.96 Cr</td><td class="num">[0.48, 1.44]</td>
+        <td class="num">₹1.44 Cr</td><td class="num"><b>₹1.20 Cr</b></td>
+        <td class="num pos">+24.5%</td>
+        <td>~₹9.2L/wk; disciplined expansion paired with geo-holdout test</td>
+      </tr>
+      <tr style="font-weight:700; background:#F0FDF4;">
+        <td>Total Budget / Outcome</td>
+        <td class="num">₹16.00 Cr</td><td class="num">—</td>
+        <td class="num">₹16.00 Cr</td><td class="num">₹16.00 Cr</td>
+        <td class="num">0.0%</td>
+        <td>Q1 Rev: <b>₹80.36 Cr</b> [78.61–82.21] (+₹1.71 Cr total lift)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <img src="fig4_budget_optimization.png" class="fig" alt="Budget Allocation and Efficient Frontier">
+  <div class="caption">Figure 4: (Left) 2025 quarterly spend vs. Point-Optimal (λ=0) and Recommended Risk-Adjusted (λ=0.75) allocations within 50–150% bounds. (Right) Efficient frontier across 300 bootstrap draws showing how λ=0.75 eliminates downside risk (P(Lift&gt;0)=100%) while preserving +₹1.71 Cr upside.</div>
+
+  <p><strong>Scheduling Operational Insight (TV Bursting):</strong> Simulating a concentrated <strong>2-week TV burst</strong> (₹61.5L/wk during the Feb launch window) outperforms spreading ₹1.23 Cr uniformly at ₹9.4L/wk inside Q1 (<strong>₹80.68 Cr vs. ₹80.56 Cr</strong> in-quarter revenue) while avoiding sub-threshold TRP waste.</p>
+</section>
+
+<!-- ==================== PAGE 6 ==================== -->
+<section class="page">
+  <div class="page-top">
+    <span class="brand">Verdant Leaf MMM Refinement</span>
+    <span class="pg-num">Page 6 of 6</span>
+  </div>
+
+  <h2>6. What We’d Do Next (1 Week &amp; Next Experiment)</h2>
+  <div class="two-col">
+    <div class="card">
+      <h3>If We Had One More Week (Data &amp; Modeling)</h3>
+      <ol>
+        <li><strong>Split Google Search (Brand vs. Non-Brand):</strong> Separating exact-match branded clicks from generic prospecting will eliminate Search’s wide <code>[0.00, 4.10]</code> mROAS band.</li>
+        <li><strong>Fix Pipeline &amp; Accounting Hygiene:</strong> Enforce automated schema checks (CPM bounds, date uniqueness, credit-note flags) and separate planned vs. actual spend during holdouts.</li>
+        <li><strong>Test Weibull Adstock &amp; Channel Synergies:</strong> Model delayed peak adstock for TV (lag-1 organic correlation <code>0.69 &gt; 0.66</code> at lag-0) and TV×Search interaction terms.</li>
+        <li><strong>Contribution-Margin Optimization:</strong> Optimize gross profit (accounting for <code>avg_discount_pct</code> &amp; marketplace fees) rather than top-line revenue alone.</li>
+      </ol>
+    </div>
+    <div class="card-green">
+      <h3>If We Had Budget for One More Experiment</h3>
+      <p><strong>Priority #1: YouTube 20% Geo-Holdout (6 Weeks, Apr–May 2026)</strong></p>
+      <ul>
+        <li><strong>Why YouTube?</strong> Value-of-Information analysis shows YouTube has the highest unresolved upside: point mROAS is <strong>1.99</strong>, yet its 90% CI spans <strong>[0.05, 3.61]</strong>. Proving YouTube’s true iROAS unlocks confident scaling from +25% to +50%+ in H2 2026.</li>
+        <li><strong>Design:</strong> Match-market synthetic control across 20% dark pin-code clusters for 6 weeks + 4 post-test carryover weeks (matching Meta’s proven protocol).</li>
+        <li><strong>Secondary Option:</strong> A 4-week <strong>Google Generic Search Holdout</strong> to verify true incrementality of non-brand search spend above ₹2.6 Cr/qtr.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Key Uncertainties &amp; Limitations to Be Honest About</h3>
+  <ul>
+    <li><strong>Long-Horizon TV Brand Equity:</strong> A 156-week time series identifies 1–12 week TV returns (<code>0.69</code>) reliably, but cannot measure &gt;6-month customer lifetime / baseline brand equity compounding. Cutting TV to 50% (not 0%) balances discipline against long-term brand erosion.</li>
+    <li><strong>Q1 vs. Full-Year Elasticity:</strong> Our recommended split assumes Q1 consumer media responsiveness mirrors average seasonal elasticity; Q4 Diwali elasticities may justify temporarily higher Meta/Amazon allocations in Oct–Nov.</li>
+  </ul>
+
+  <h2>7. How We Used AI Tools (And Where We Disagreed)</h2>
+  <p>We used AI coding/analytical assistants to accelerate exploratory data profiling, boilerplate Ridge/bootstrap implementation, and HTML/chart generation—while rigorously auditing every numerical assumption and overriding AI whenever domain physics or numerical checks failed:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width:22%;">Task / Stage</th>
+        <th style="width:36%;">Initial AI Suggestion / Default Output</th>
+        <th style="width:42%;">Where We Disagreed &amp; Human Override</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>1. Controlling for Non-Ad Demand</b></td>
+        <td>Suggested adding all unused columns (including <code>brand_search_index</code> and <code>organic_traffic_index</code>) directly into the regression to lift R² to 0.95.</td>
+        <td><b>Overrode:</b> Recognized both indices as <em>post-treatment mediators</em> driven by TV/Meta/YouTube (Stage-1 R²=0.96). Direct inclusion wiped out Meta (0.06) and TV (-0.05). Implemented 2-stage orthogonalization instead.</td>
+      </tr>
+      <tr>
+        <td><b>2. Saturation &amp; Optimizer Math</b></td>
+        <td>Recommended unconstrained Hill saturation + running <code>SLSQP</code> directly on rupee spend (<code>1e7</code>) and revenue (<code>1e9</code>).</td>
+        <td><b>Overrode:</b> Unbounded Hill <code>K</code> exploded to 10⁹×mean (unidentifiable), additive linear missed 2025 Diwali by ₹11M, and unscaled <code>SLSQP</code> returned 0% change due to finite-diff underflow. Switched to Log-Revenue <code>log1p</code> and rescaled optimization in ₹ Crores.</td>
+      </tr>
+      <tr>
+        <td><b>3. Q1 Budget Split (Search &amp; TV)</b></td>
+        <td>First optimization maxed Google Search (+50% to ₹3.47 Cr) and dripped TV uniformly at ₹9.4L/wk across 13 weeks.</td>
+        <td><b>Overrode:</b> Point-opt ignored Google’s <code>[0.00, 4.10]</code> CI and Q1 brand search ceiling, carrying a 10% risk of losing vs. status quo. Added bootstrap mean-variance penalty (<code>λ=0.75</code>, 100% win rate) and scheduled TV as a concentrated 2-week burst.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div style="margin-top:8px; padding-top:5px; border-top:1px solid #CBD5E1; display:flex; justify-content:space-between; font-size:7.4pt; color:#64748B;">
+    <span>Reproducible Pipeline: <code>refined_mmm.py</code> | Raw Inputs: <code>mmm_weekly_data.csv</code>, <code>lift_test_results.csv</code></span>
+    <span>Page 6 of 6 — Verdant Leaf MMM Report</span>
+  </div>
+</section>
+
+</body>
+</html>

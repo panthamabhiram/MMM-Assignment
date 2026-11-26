@@ -1,0 +1,20 @@
+raw_row_idx,week_start,bug_type,column_changed,raw_value,cleaned_value,fix_explanation
+115,2025-03-10,Duplicate Week Row,ALL (row dropped),Duplicate of row 114,Removed,Exact duplicate of 2025-03-10; dropped second occurrence (157 -> 156 rows).
+39,2023-10-02,Unit Scale Error (Lakhs -> INR),meta_spend,27.23,2723000.0,"Raw CPM was ₹0.0012 vs ~₹139 normal; multiplied by 100,000."
+40,2023-10-09,Unit Scale Error (Lakhs -> INR),meta_spend,25.72,2572000.0,"Raw CPM was ₹0.0014 vs ~₹139 normal; multiplied by 100,000."
+41,2023-10-16,Unit Scale Error (Lakhs -> INR),meta_spend,23.8,2380000.0,"Raw CPM was ₹0.0016 vs ~₹139 normal; multiplied by 100,000."
+42,2023-10-23,Unit Scale Error (Lakhs -> INR),meta_spend,37.13,3713000.0,"Raw CPM was ₹0.0014 vs ~₹139 normal; multiplied by 100,000."
+43,2023-10-30,Unit Scale Error (Lakhs -> INR),meta_spend,42.39,4239000.0,"Raw CPM was ₹0.0014 vs ~₹139 normal; multiplied by 100,000."
+44,2023-11-06,Unit Scale Error (Lakhs -> INR),meta_spend,37.93,3793000.0,"Raw CPM was ₹0.0013 vs ~₹139 normal; multiplied by 100,000."
+45,2023-11-13,Unit Scale Error (Lakhs -> INR),meta_spend,31.54,3154000.0,"Raw CPM was ₹0.0014 vs ~₹139 normal; multiplied by 100,000."
+46,2023-11-20,Unit Scale Error (Lakhs -> INR),meta_spend,16.59,1659000.0,"Raw CPM was ₹0.0014 vs ~₹139 normal; multiplied by 100,000."
+47,2023-11-27,Unit Scale Error (Lakhs -> INR),meta_spend,20.68,2068000.0,"Raw CPM was ₹0.0013 vs ~₹139 normal; multiplied by 100,000."
+48,2023-12-04,Unit Scale Error (Lakhs -> INR),meta_spend,34.56,3456000.0,"Raw CPM was ₹0.0014 vs ~₹139 normal; multiplied by 100,000."
+49,2023-12-11,Unit Scale Error (Lakhs -> INR),meta_spend,35.31,3531000.0,"Raw CPM was ₹0.0014 vs ~₹139 normal; multiplied by 100,000."
+50,2023-12-18,Unit Scale Error (Lakhs -> INR),meta_spend,38.35,3835000.0,"Raw CPM was ₹0.0013 vs ~₹139 normal; multiplied by 100,000."
+51,2023-12-25,Unit Scale Error (Lakhs -> INR),meta_spend,33.94,3394000.0,"Raw CPM was ₹0.0013 vs ~₹139 normal; multiplied by 100,000."
+58,2024-02-12,Missing Spend (NaN),youtube_spend,NaN,710915.44,"Imputed from 7,851,832 impressions using median YT CPM (₹90.54)."
+59,2024-02-19,Missing Spend (NaN),youtube_spend,NaN,1120666.55,"Imputed from 12,377,401 impressions using median YT CPM (₹90.54)."
+83,2024-08-05,Missing Spend (NaN),youtube_spend,NaN,1014910.28,"Imputed from 11,209,357 impressions using median YT CPM (₹90.54)."
+126,2025-05-26,Missing Spend (NaN),youtube_spend,NaN,785286.56,"Imputed from 8,673,237 impressions using median YT CPM (₹90.54)."
+97,2024-11-11,Negative Accounting Rebate,tv_spend,-1250000.0,0.0,Post-Diwali agency credit note; clipped to ₹0 for media exposure modeling.
